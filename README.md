@@ -6,7 +6,7 @@ This repo:
 
 "SINGLE TEACHER, MULTIPLE PERSPECTIVES: TEACHER KNOWLEDGE AUGMENTATION FOR ENHANCED KNOWLEDGE DISTILLATION":
 
-<p><a href="https://openreview.net/forum?id=DmEHmZ89iB">Paper</a></p>
+<p><a href="https://openreview.net/forum?id=DmEHmZ89iB">Paper</a> || <a href="https://github.com/mdimtiazh/TeKAP/tree/main">Code</a></p>
 
 
 # Running
@@ -55,7 +55,7 @@ Note: the default setting is for a single GPU training.
 Thanks to the authors of CRD (https://arxiv.org/pdf/1910.10699) for providing the code of CRD. Thanks also go to the authors of other papers who make their code publicly available.
 
 
-## Bibtex
+# Bibtex
 <p>
 @inproceedings{<br>
 hossain2025single,<br>

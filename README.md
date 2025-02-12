@@ -1,14 +1,15 @@
-# TeKAP
+# TeKAP: Single Teacher, Multiple Perspectives: Teacher Knowledge Augmentation for Enhanced Knowledge Distillation
 
 This repo:
 
 **(1) covers the implementation of the following ICLR 2025 paper:**
 
-"SINGLE TEACHER, MULTIPLE PERSPECTIVES: TEACHER KNOWLEDGE AUGMENTATION FOR ENHANCED KNOWLEDGE DISTILLATION":
+<h3><a href="https://openreview.net/forum?id=DmEHmZ89iB">SINGLE TEACHER, MULTIPLE PERSPECTIVES: TEACHER KNOWLEDGE AUGMENTATION FOR ENHANCED KNOWLEDGE DISTILLATION</a></h3>
 
 <p><a href="https://openreview.net/forum?id=DmEHmZ89iB">Paper</a> || <a href="https://github.com/mdimtiazh/TeKAP/tree/main">Code</a></p>
 
 ![TeKAP Main Figure](https://github.com/mdimtiazh/TeKAP/blob/main/assets/TeKAP-main-figure.png)
+
 # Running
 
 1. Fetch the pretrained teacher models by:

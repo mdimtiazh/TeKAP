@@ -8,7 +8,7 @@ This repo:
 
 <p><a href="https://openreview.net/forum?id=DmEHmZ89iB">Paper</a> || <a href="https://github.com/mdimtiazh/TeKAP/tree/main">Code</a></p>
 
-
+![TeKAP Main Figure](https://github.com/mdimtiazh/TeKAP/blob/main/assets/TeKAP-main-figure.png)
 # Running
 
 1. Fetch the pretrained teacher models by:

@@ -6,6 +6,7 @@ This repo:
 
 "SINGLE TEACHER, MULTIPLE PERSPECTIVES: TEACHER KNOWLEDGE AUGMENTATION FOR ENHANCED KNOWLEDGE DISTILLATION":
 
+Paper: https://openreview.net/forum?id=DmEHmZ89iB
 
 
 # Running
@@ -25,18 +26,18 @@ This repo:
     where the flags are explained as:
     - `--path_t`: specify the path of the teacher model
     - `--model_s`: specify the student model, see 'models/\_\_init\_\_.py' to check the available model types.
-    - `--distill`: specify the distillation method
+    - `--distil`: specify the distillation method
     - `-r`: the weight of the cross-entropy loss between logit and ground truth, default: `1`
     - `-a`: the weight of the KD loss, default: `None`
     - `-b`: the weight of other distillation losses, default: `None`
-    - `--trial`: specify the experimental id to differentiate between multiple runs.
+    - `--trial`: specify the experimental ID to differentiate between multiple runs.
     
     Therefore, the command for running TeKAP for feature level (we use CRD as the base method) is something like:
     ```
     python train_student.py --path_t ./save/models/resnet32x4_vanilla/ckpt_epoch_240.pth --distill crd --model_s resnet8x4 -a 0 -b 0.8 --trial 1
     ```
     
-3. Combining a distillation objective with TeKAP feature level and logit level is simply done by setting `-a` as a non-zero value, which results in the following example (TeKAP* (F+L))
+3. Combining a distillation objective with the TeKAP feature level and logit level is simply done by setting `-a` as a non-zero value, which results in the following example (TeKAP* (F+L))
     ```
     python train_student.py --path_t ./save/models/resnet32x4_vanilla/ckpt_epoch_240.pth --distill crd --model_s resnet8x4 -a 1 -b 0.8 --trial 1     
     ```
@@ -46,9 +47,21 @@ This repo:
 	python train_teacher.py --model resnet32x4
 ```
 
-Note: the default setting is for a single-GPU training. 
+Note: the default setting is for a single GPU training. 
 
 
 ## Acknowledgement
 
-Thanks to the authors of CRD (https://arxiv.org/pdf/1910.10699) for providing the code of CRD. Thanks also go to authors of other papers who make their code publicly available.
+Thanks to the authors of CRD (https://arxiv.org/pdf/1910.10699) for providing the code of CRD. Thanks also go to the authors of other papers who make their code publicly available.
+
+
+## Bibtex
+
+@inproceedings{
+hossain2025single,
+title={Single Teacher, Multiple Perspectives: Teacher Knowledge Augmentation for Enhanced Knowledge Distillation},
+author={Md Imtiaz Hossain and Sharmen Akhter and Choong Seon Hong and Eui-Nam Huh},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=DmEHmZ89iB}
+}

@@ -6,7 +6,7 @@ This repo:
 
 "SINGLE TEACHER, MULTIPLE PERSPECTIVES: TEACHER KNOWLEDGE AUGMENTATION FOR ENHANCED KNOWLEDGE DISTILLATION":
 
-Paper: https://openreview.net/forum?id=DmEHmZ89iB
+<p><a href="https://openreview.net/forum?id=DmEHmZ89iB">Paper</a></p>
 
 
 # Running
@@ -56,12 +56,13 @@ Thanks to the authors of CRD (https://arxiv.org/pdf/1910.10699) for providing th
 
 
 ## Bibtex
-
-@inproceedings{
-hossain2025single,
-title={Single Teacher, Multiple Perspectives: Teacher Knowledge Augmentation for Enhanced Knowledge Distillation},
-author={Md Imtiaz Hossain and Sharmen Akhter and Choong Seon Hong and Eui-Nam Huh},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=DmEHmZ89iB}
+<p>
+@inproceedings{<br>
+hossain2025single,<br>
+title={Single Teacher, Multiple Perspectives: Teacher Knowledge Augmentation for Enhanced Knowledge Distillation},<br>
+author={Md Imtiaz Hossain and Sharmen Akhter and Choong Seon Hong and Eui-Nam Huh},<br>
+booktitle={The Thirteenth International Conference on Learning Representations},<br>
+year={2025},<br>
+url={https://openreview.net/forum?id=DmEHmZ89iB}<br>
 }
+</p>

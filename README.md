@@ -2,13 +2,11 @@
 
 This repo:
 
-**(1) covers the implementation of the following ICLR 2025 Submitted paper with ID:6163:**
+**(1) covers the implementation of the following ICLR 2025 paper:**
 
 "SINGLE TEACHER, MULTIPLE PERSPECTIVES: TEACHER KNOWLEDGE AUGMENTATION FOR ENHANCED KNOWLEDGE DISTILLATION":
 
-<div style="text-align:center"><img src="http://hobbitlong.github.io/CRD/CRD_files/teaser.jpg" width="85%" height="85%"></div>  
 
-<p></p>
 
 # Running
 

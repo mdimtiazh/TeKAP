@@ -1,3 +1,7 @@
+## News:
+2025/02/17: Initial version of the code has been released
+2025/01/23: Our paper TeKAP accepted to ICLR-2025
+
 # TeKAP: Single Teacher, Multiple Perspectives: Teacher Knowledge Augmentation for Enhanced Knowledge Distillation
 
 This repo:
